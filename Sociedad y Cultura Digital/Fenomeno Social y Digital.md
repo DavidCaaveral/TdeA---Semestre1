@@ -9,7 +9,7 @@ Camino que se sigue para investigar o analizar algo.
 ### Ejemplos: 
 *Método científico*
 
-| **Tipo de metodología** | Qué busca                                 | Cómo se usa                                | Ejemplo**                                                  |
+| **Tipo de metodología** | Qué busca                                 | Cómo se usa                                | Ejemplo                                                  |
 | ----------------------- | ----------------------------------------- | ------------------------------------------ | ---------------------------------------------------------- |
 | **Cualitativa**         | Comprender significados y comportamientos | Entrevistas, observaciones, grupos focales | Entender el uso de redes por jóvenes                       |
 | **Cuantitativa**        | Medir y analizar datos                    | Encuestas, estadísticas, análisis de datos | Medir cuántas horas al día usan redes sociales los jóvenes |

@@ -27,4 +27,4 @@ Herramientas que se usan para llevar a cabo una metodología.
 | influencers     | cualitativa          | entrevistas y observación  | cómo influyen en decisiones      |
 | uso del celular | cuantitativa         | encuestas y gráficos       | promedio de horas diarias        |
 
-[ACTIVIDAD](/Actividades/Actividad%20Fenomenos%20Digitales.md)
+[ACTIVIDAD](../Actividades/Actividad%20Fenomenos%20Digitales.md)

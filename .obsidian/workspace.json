@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1c12e6dd928a434a",
+        "id": "67f54ea13584c733",
         "type": "tabs",
         "children": [
           {
-            "id": "38b6a23e105c52f9",
+            "id": "a31805bae34672b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -183,12 +183,14 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "38b6a23e105c52f9",
+  "active": "a31805bae34672b1",
   "lastOpenFiles": [
     "Sociedad y Cultura Digital/Fenomeno Social y Digital.md",
+    "Sociedad y Cultura Digital/Actividades/Actividad Fenomenos Digitales.md",
+    "Actividades/Actividad Fenomenos Digitales.md",
+    "Actividades",
     "2026-02-21.md",
     "Sin título.canvas",
-    "Sociedad y Cultura Digital/Actividades/Actividad Fenomenos Digitales.md",
     "Sociedad y Cultura Digital/Actividades"
   ]
 }

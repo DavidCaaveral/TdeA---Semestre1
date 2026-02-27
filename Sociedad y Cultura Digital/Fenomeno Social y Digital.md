@@ -1,4 +1,4 @@
-Comportamiento o Tendencia que surge o se potencia con el uso de tecnologías digitales.
+	Comportamiento o Tendencia que surge o se potencia con el uso de tecnologías digitales.
 
 ### Ejemplos:
 *Redes Sociales*

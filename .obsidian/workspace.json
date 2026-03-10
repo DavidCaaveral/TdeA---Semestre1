@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sociedad y Cultura Digital/Fenomeno Social y Digital.md",
+                "file": "Sociedad y Cultura Digital/Actividades/ActividadFenomenosDigitales.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fenomeno Social y Digital"
+              "title": "ActividadFenomenosDigitales"
             }
           }
         ],
@@ -200,8 +200,8 @@
   },
   "active": "7ab58947c212af99",
   "lastOpenFiles": [
-    "Sociedad y Cultura Digital/Actividades/ActividadFenomenosDigitales.md",
     "Sociedad y Cultura Digital/Fenomeno Social y Digital.md",
+    "Sociedad y Cultura Digital/Actividades/ActividadFenomenosDigitales.md",
     "Actividades/Actividad Fenomenos Digitales.md",
     "Actividades",
     "2026-02-21.md",

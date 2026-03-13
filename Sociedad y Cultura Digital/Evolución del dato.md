@@ -75,6 +75,8 @@ la información ya se estructura sin embargo no esta completa ya que se necesita
 **Ejemplo:**
 Censos Romanos.
 
+---
+
 ### 2. Datos mecanizados 
 
 Siglo XIX - XX
@@ -84,6 +86,8 @@ Se empiezan a usar maquinas que procesan datos.
 **Ejemplo:**
 
 Invención de tarjetas perforadas para procesar el censo de USA
+
+---
 
 ### 3. Datos digitales
 
@@ -97,6 +101,8 @@ Con las computadoras aparecen:
 
 - Fácil transmisión
 - Fácil análisis
+
+---
 
 ### 4. Big Data 
 
@@ -120,6 +126,8 @@ Se refiere a cantidades masivas de datos generadas constantemente.
 - Meta
 
 analizan estos datos para entender comportamientos, mercados y tendencias.
+
+---
 
 ### 5. Inteligencia Artificial
 

@@ -112,5 +112,7 @@ variable = input("ingrese su nombre:")
 
 ```
 
+> **Ejercicio de clase:** [Ejercicio](./Ejercicio/script.py)
+
 
 

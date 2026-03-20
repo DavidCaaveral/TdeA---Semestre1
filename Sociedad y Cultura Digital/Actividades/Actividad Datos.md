@@ -55,4 +55,29 @@ Como experiencia personal, debo reconocer que el uso excesivo de la IA produce h
 - Comunicación asertiva: Fomentar el trabajo sano en equipo 
 - Coding.
 
+---
+
+## Parte 4 - Aplicación Práctica (integración con Power BI) 
+
+Se entrega un conjunto de datos simple (ventas de una tienda).
+
+> **Nota previa:** la obtención de los datos se hace por medio de la plataforma [Kaggle](https://www.kaggle.com)
+
+### Propósito:
+
+Extraer datos reales que hallan sido usados en negocios, para así poder evaluar la identificación e interpretación de información  por parte del estudiante, la información presentada en este reporte de ejemplo se encuentra publica y de libre adquisición.
+
+| sale_id | branch | city        | customer_type | gender | product_name | product_category | unit_price | quantity |  tax | total_price | reward_points |
+| ------: | ------ | ----------- | ------------- | ------ | ------------ | ---------------- | ---------: | -------: | ---: | ----------: | ------------: |
+|       1 | A      | New York    | Member        | Male   | Shampoo      | Personal Care    |       5.50 |        3 | 1.16 |       17.66 |             1 |
+|       2 | B      | Los Angeles | Normal        | Female | Notebook     | Stationery       |       2.75 |       10 | 1.93 |       29.43 |             0 |
+|       3 | A      | New York    | Member        | Female | Apple        | Fruits           |       1.20 |       15 | 1.26 |       19.26 |             1 |
+|       4 | A      | Chicago     | Normal        | Male   | Detergent    | Household        |       7.80 |        5 | 2.73 |       41.73 |             0 |
+|       5 | B      | Los Angeles | Member        | Female | Orange Juice | Beverages        |       3.50 |        7 | 1.72 |       26.22 |             2 |
+
+### 1. Identificar qué es dato.
+### 2. Convertirlo en información (tabla organizada).
+### 3. Generar conocimiento (conclusión).
+### 4. Proponer cómo una IA podría mejorar el proceso.
+
 

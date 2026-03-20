@@ -110,7 +110,7 @@ para complementar este subpunto se llevara a cabo un reporte con los datos anter
 
 [Reporte](./data%20activities/Reporte%20Ejemplo.pbix)
 
-![[Pasted image 20260319235408.png]]
+![alt](./power%20bi.jpeg)
 ### 4. Proponer cómo una IA podría mejorar el proceso.
 
 El proceso de creación y análisis de datos puede optimizarse a niveles gigantescos con ayuda de la IA ya que con esta, la creación de reportes, algoritmos, sistemas de predicción y ayudas, se ven optimizados, como sociedad debemos empezar a aceptar la sinergia con los dispositivos que inducen a una mayor capacidad de trabajo y avance.

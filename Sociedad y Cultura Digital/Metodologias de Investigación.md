@@ -14,6 +14,7 @@ Es como decir:
 
 Como resultado obtenemos conocimiento teórico y bases para futuras organizaciones. 
 
+---
 ## 2. Investigación aplicada
 
 **Idea clave:** usar el conocimiento para resolver algo.
@@ -26,6 +27,7 @@ Puedes hacer **investigación aplicada directamente** sin pasar por la básica
 
 Como resultado obtenemos conocimiento una solución practica, producto o mejora real 
 
+---
 ## 3. Investigación descriptiva
 
 **Idea clave:** observar y contar qué está pasando.
@@ -39,6 +41,7 @@ no responde a un "por qué", si no a:  `¿Que esta pasando?`
 
 Como resultado obtenemos datos organizados, tablas, porcentajes
 
+---
 ## 4. Investigación explicativa
 
 **Idea clave:** entender el porqué.
@@ -53,6 +56,7 @@ en este punto se conectan razonamientos `(Preguntas) -> (respuestas)`, por medio
 
 Como resultado se obtiene relaciones causa-efecto y explicaciones científicas 
 
+---
 ## 5. Investigación experimental
 
 **Idea clave:** probar algo en condiciones controladas.
@@ -67,6 +71,7 @@ luego se comparan los resultados
 
 Como resultado se obtiene evidencia comprada y puedes decir “esto funciona” o “no funciona”
 
+---
 ## 6. Investigación cuantitativa
 
 **Idea clave:** obtención y manipulación de números
@@ -81,6 +86,7 @@ todo es medible
 
 Como resultado se obtienen datos objetivos y estadísticas
 
+---
 ## # 7. Investigación cualitativa
 
 **Idea clave:** entender experiencias.
@@ -95,4 +101,4 @@ No usa números, usa opiniones.
 
 Como resultado se obtienen percepciones humanas y opiniones 
 
-[ACTIVIDAD]()
+[ACTIVIDAD](./Actividades/Actividad%20Investigación.md)

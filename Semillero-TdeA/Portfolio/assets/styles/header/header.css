@@ -1,0 +1,89 @@
+:root{
+    --background-header: #05091a;
+    --background: #0a142b;
+    --color: #52fcfe;
+}
+
+header{
+    background-color: var(--background-header);
+    width: 18%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column ;
+    backdrop-filter: blur(10px);
+    border-right: 3px solid var(--color);
+    box-shadow: 4px 0 20px 0 #52fbfe7f;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top: 0; /* se queda pegado al top al hacer scroll */
+}
+.foto__perfil{
+    width: 9rem;
+    aspect-ratio: 1 / 1;   /* 🔑 siempre cuadrado */
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid var(--color);
+    box-shadow: 0 0 8px var(--color);
+}
+
+.profile__image{
+     width: 100%;
+    object-fit: cover !important;
+}
+
+.nombre{
+     font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+    color: #e5e7eb;
+    font-weight: 600;
+}
+.subtitle{
+    font-family: "Iosevka Charon Mono", monospace;;   
+    font-style: normal;
+    font-size: 1rem;
+    color: #00d4ff;
+    text-shadow: 0 0 10px var(--color);
+}
+nav,ul,li{
+    list-style: none; 
+    text-align: center;
+    margin: 1rem;   
+    transition: all 0.3s ease;
+}
+.botones__header__cont:hover{
+    border: 1px solid var(--color);
+    border-radius: 5px;
+    box-shadow: 0 0 5px var(--color);
+    color:#00d4ff ;
+    text-shadow: 0 0 10px var(--color);
+}
+ul{
+    padding: 0% !important;
+}
+.titulos_header{
+    text-align: center;
+}
+.texto__lista{
+    font-family: "Press Start 2P", system-ui;
+    font-size: 10px;
+    color: #e5e7ebad;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 5px 10px; 
+    transition: all 0.3s ease;
+}
+.texto__lista:hover{
+    color:#00d4ff ;
+    text-shadow: 0 0 10px var(--color);
+
+}
+
+
+.mini__footer{
+    text-align: center;
+    color: #ffffffb7;
+    margin-top: 1rem;
+}

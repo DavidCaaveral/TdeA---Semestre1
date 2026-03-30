@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Index.md",
+                "file": "Introduccion al desarrollo de software/clases/Clase 11/clase11.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Index"
+              "title": "clase11"
             }
           }
         ],
@@ -256,8 +256,9 @@
   },
   "active": "92f17b4c54295bde",
   "lastOpenFiles": [
-    "Introduccion al desarrollo de software/clases/Clase 11/clase11.md",
     "Index.md",
+    "README.md",
+    "Introduccion al desarrollo de software/clases/Clase 11/clase11.md",
     "Index",
     "Semillero-TdeA/indexSemillero.md",
     "Teoria General de Sistemas/PPI/indexTeoria.md",

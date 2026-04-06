@@ -21,3 +21,4 @@
 
 ## Actividades
 - [numero magico.py](./Actividades/numero%20magico.py)
+- [pares_impares.py](./Actividades/pares_impares.py)

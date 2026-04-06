@@ -4,6 +4,7 @@
 # Descripción: Verificar un numero magico 
 import time
 
+# Declaración de variables
 NUMERO_MAGICO = 73
 keyboard_num = 0
 person_name = ""
@@ -16,16 +17,16 @@ print("------------------------ \n \nNUMERO MAGICO\n \n------------------------ 
 person_name = input("- Ingrese su nombre por favor \n-> ").strip().upper()
 print(f" \n------------------------ \nINSTRUCCIONES PARA {person_name} \n  1. Ingrese cualquier numero del rango de 1 a 100 \n  2. Cuenta con tres oportunidades para adivinar el numero \n  3. Se le dará una pista del numero solo hasta el tercer intento \n------------------------")
 time.sleep(2)
-while counter < 3:
-    counter += 1
+
+for i in range(3):
     time.sleep(1)
-    if counter == 3:
+    if i+1 == 3:
         print("------------------------ \n \nULTIMA OPORTUNDIDAD \nPISTA: Numero de sheldon en the big bang theory \n \n------------------------ \n ")
-    print(f"------------------------ \nINTENTO: {counter} \n------------------------ \n ")  
+    print(f"------------------------ \nINTENTO: {i+1} \n------------------------ \n ")  
     keyboard_num = int(input("- Ingrese un numero entre 1 y 100 \n-> "))
 
     if keyboard_num > 100 or keyboard_num < 0:
-        counter -= 1
+        i -= 1
         print("------------------------ \nEL NUMERO INGRESADO NO ES VALIDO \n------------------------ \n ")   
         time.sleep(1) 
     elif keyboard_num > NUMERO_MAGICO:
@@ -37,6 +38,7 @@ while counter < 3:
     else:
          print("------------------------ \n¡¡¡ADIVINASTE EL NUMERO MAGICO!! \n------------------------ \n ")   
          flag = True 
+         break
 
 if not flag: print("------------------------ \nSIGUE INTENTADO, SERÁ EN OTRA OCASIÓN :C \n------------------------ \n ")   
 time.sleep(2)

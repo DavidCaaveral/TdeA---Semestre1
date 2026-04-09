@@ -15,8 +15,9 @@
 - [ActividadFenomenosDigitales.md](./Actividades/ActividadFenomenosDigitales.md)
 
 ## Clases
-- [Evolución del dato.md](./Clases/Evolución%20del%20dato.md)
-- [Fenomeno Social y Digital.md](./Clases/Fenomeno%20Social%20y%20Digital.md)
-- [Metodologias de Investigación.md](./Clases/Metodologias%20de%20Investigación.md)
-- [Revoluciones industriales.md](./Clases/Revoluciones%20industriales.md)
+- [Fenomeno Social y Digital.md](./Fenomeno%20Social%20y%20Digital.md)
+- [Revoluciones industriales.md](./Revoluciones%20industriales.md)
+- [Evolución del dato.md](Evolución%20del%20dato.md)
+- [Metodologias de Investigación.md](./Metodologias%20de%20Investigación.md)
+
 

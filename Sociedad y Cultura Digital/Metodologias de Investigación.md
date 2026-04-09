@@ -69,7 +69,7 @@ se Manipulan variables y situaciones para probar en situaciones
 - Grupo B no
 luego se comparan los resultados
 
-Como resultado se obtiene evidencia comprada y puedes decir “esto funciona” o “no funciona”
+Como resultado se obtiene evidencia comparada y puedes decir “esto funciona” o “no funciona”
 
 ---
 ## 6. Investigación cuantitativa

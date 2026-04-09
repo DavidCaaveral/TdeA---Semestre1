@@ -15,14 +15,14 @@ for i in range(11):
 
 # esto muestra los numeros del 1 al 10
 ```
->> **NOTA:** El ciclo `while` tambien puede ser determinado si se le coloca en la condición.
+>> **NOTA:** El ciclo `while` también puede ser determinado si se le coloca en la condición.
 
 > Script: [Script](./script.py)
 
 ### Ciclos indeterminados
-Un ciclo indeterminado es uno al que no se conoce cuando tendra fin, por lo tanto se debe colocar una condicion que regule las iteraciones.
+Un ciclo indeterminado es uno al que no se conoce cuando tendrá fin, por lo tanto se debe colocar una condición que regule las iteraciones.
 
-> **Iteraciones:** una iteracion se refiere a repeticiones.
+> **Iteraciones:** una iteración se refiere a repeticiones.
 
 **Ejemplo:**
 

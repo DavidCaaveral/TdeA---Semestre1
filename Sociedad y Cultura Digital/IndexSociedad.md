@@ -13,6 +13,7 @@
 - [Actividad Datos.md](./Actividades/Actividad%20Datos.md)
 - [Actividad Investigación.md](./Actividades/Actividad%20Investigación.md)
 - [ActividadFenomenosDigitales.md](./Actividades/ActividadFenomenosDigitales.md)
+- [Actividad Proyecto.md](./Actividades/Actividad%20-%20Idea%20a%20Impacto.md)
 
 ## Clases
 - [Fenomeno Social y Digital.md](./Fenomeno%20Social%20y%20Digital.md)

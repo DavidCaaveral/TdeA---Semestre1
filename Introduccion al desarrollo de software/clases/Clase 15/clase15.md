@@ -1,4 +1,4 @@
-# Ejercicio
+# Ejercicio - SIATA V2
 Después de revisar los resultados obtenidos con la primera versión del algoritmo para monitorear en tiempo real las condiciones meteorológicas de Medellín, el SIATA te encargó el diseño de la segunda versión que debe calcular la temperatura promedio de la ciudad durante un día con las lecturas que envía el sensor cada 120 minutos, teniendo en cuenta el rango **16 °C <= temperatura <= 26 °C.** Adicionalmente, el algoritmo debe calcular el número de veces que la temperatura fue normal, inferior a 16°C y mayor que 26°C.
 
 **Antes de resolver el algoritmo responde las siguientes preguntas:**
@@ -29,11 +29,19 @@ Después de revisar los resultados obtenidos con la primera versión del algorit
 
 **Datos de Entrada**
 
-- TEMPERATURA_MAXIMA = 26, variable de tipo real 
-- TEMPERATURA_MINIMA = 16, variable de tipo real
-- TOTAL_TEMPERATURAS = 12, variable de tipo entero
-- TEMPERATURA_NORMAL = 0, variable de tipo real
+temperatura_actual = 0, variable de tipo real
 
 **Proceso**
+- Se definirán las siguientes variables: 
+    - TEMPERATURA_MAXIMA = 26, variable de tipo real 
+    - TEMPERATURA_MINIMA = 16, variable de tipo real
+    - TOTAL_TEMPERATURAS = 12, variable de tipo entero
+    - contador_mayor = 0
+    - contador_menor = 0 
+    - contador_nomales = 0  
+    - acumulador_general = 0
+
+- Se hará un ciclo for que tenga la condicion de "(iterador < TOTAL_TEMPERATURAS)" dentro del ciclo se leerá la variable temperatura_actual y se harán las siguientes formulas:
+
 
 **Datos de Salida**

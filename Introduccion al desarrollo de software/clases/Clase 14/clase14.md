@@ -42,3 +42,7 @@ Ejemplo 2-Algoritmo para el SIATA. El Sistema de Alerta Temprana de Medellín y 
 ### Diagrama de Flujo
 
 ![img](../../imgs/diagrama%20flujo.png)
+
+### Script
+
+[Script.py](./script.py)

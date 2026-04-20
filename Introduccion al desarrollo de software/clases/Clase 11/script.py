@@ -14,3 +14,5 @@ for numero_par in range(11):
 time.sleep(1)
 
 print(f" \nLos pares hallados fueron: {contador_pares}")        
+
+

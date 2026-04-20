@@ -4,7 +4,6 @@
 # Descripción: Verificar un numero magico 
 import time
 
-# Declaracion de variables
 NUMERO_MAGICO = 73
 keyboard_num = 0
 person_name = ""
@@ -17,7 +16,7 @@ print("------------------------ \n \nNUMERO MAGICO\n \n------------------------ 
 person_name = input("- Ingrese su nombre por favor \n-> ").strip().upper()
 print(f" \n------------------------ \nINSTRUCCIONES PARA {person_name} \n  1. Ingrese cualquier numero del rango de 1 a 100 \n  2. Cuenta con tres oportunidades para adivinar el numero \n  3. Se le dará una pista del numero solo hasta el tercer intento \n------------------------")
 time.sleep(2)
-while counter < 3:
+while counter < 3: #Lo hice con while, para tener control total sobre el rango numerico ingresado
     counter += 1
     time.sleep(1)
     if counter == 3:
@@ -38,9 +37,13 @@ while counter < 3:
     else:
          print("------------------------ \n¡¡¡ADIVINASTE EL NUMERO MAGICO!! \n------------------------ \n ")   
          flag = True 
-         break
 
 if not flag: print("------------------------ \nSIGUE INTENTADO, SERÁ EN OTRA OCASIÓN :C \n------------------------ \n ")   
 time.sleep(2)
 print("------------------------ \n \nGRACIAS POR JUGAR\n \n------------------------ \n ")      
-         
+
+"""NOTA:Insisto en que, aunque no es estrictamente necesario el uso de este ciclo, 
+sí permite cumplir con la regla de los tres intentos
+y contribuye a reducir errores por parte del usuario. 
+Sé que no fue un requisito solicitado, pero considero que es un ajuste de depuración importante para 
+hacer el script más amigable para el usuario final."""

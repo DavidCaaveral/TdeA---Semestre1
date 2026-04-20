@@ -38,10 +38,26 @@ temperatura_actual = 0, variable de tipo real
     - TOTAL_TEMPERATURAS = 12, variable de tipo entero
     - contador_mayor = 0
     - contador_menor = 0 
-    - contador_nomales = 0  
+    - contador_normales = 0  
     - acumulador_general = 0
 
-- Se hará un ciclo for que tenga la condicion de "(iterador < TOTAL_TEMPERATURAS)" dentro del ciclo se leerá la variable temperatura_actual y se harán las siguientes formulas:
+- Se hará un ciclo for que tenga la condicion de "(iterador <= TOTAL_TEMPERATURAS)" dentro del ciclo se leerá la variable temperatura_actual y se hará la siguiente
+formula:
+
+acumulador_general = acumulador_general + temperatura_actual
+
+y luego los siguientes condicionales:
+
+si la temperatura_actual es mayor o igual a la TEMPERATURA_MAXIMA haga esta formula:
+contador_mayor = contador_mayor + 1
+
+si la temperatura_actual es menor o igual a la TEMPERATURA_MINIMA haga esta formula: 
+contador_menor = contador_menor + 1
+
+si no es ninguna de las anteriores haga esta formula:
+contador_normales = contador_normales + 1
+
+
 
 
 **Datos de Salida**

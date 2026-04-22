@@ -13,6 +13,7 @@ TOTAL_TEMPERATURAS = 12
 contador_mayor = 0
 contador_menor = 0 
 contador_normales = 0  
+
 acumulador_general = 0
 
 # Mensajes de muestra

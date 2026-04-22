@@ -2,11 +2,17 @@
 # Versión: 1.0
 # Fecha: 15/04/2026
 # Descripcion: Algoritmo que calcule la temperatura promedio de las lecturas enviadas por un sensor mientras que no exceda los 30°C
+import time
 
 TEMPERATURA_MAXIMA = 30 
 contador_temperaturas = 0
 acumulador_temperaturas = 0
 temperatura_actual = 0 
+
+print('--------------> SIATA <--------------\n \n')
+print('-> Envio de data cada 120 minutos\n \n')
+time.sleep(2)
+
 
 while (temperatura_actual <= TEMPERATURA_MAXIMA):
     temperatura_actual = float(input("Ingrese la temperatura actual \n-> "))
@@ -15,7 +21,10 @@ while (temperatura_actual <= TEMPERATURA_MAXIMA):
 
 promedio_temperaturas = acumulador_temperaturas / contador_temperaturas
 
-print("Se superó el limite de temperatura permitido\n -------------")
+print("<------------------------------------->\n \n-> Se superó el limite de temperatura permitido\n -------------")
+time.sleep(1)   
+print('--------------> Reporte <--------------\n \n')    
+time.sleep(2)    
 
 print(f"El promedio de temperaturas es: {promedio_temperaturas}°")
 

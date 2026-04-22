@@ -57,7 +57,48 @@ contador_menor = contador_menor + 1
 si no es ninguna de las anteriores haga esta formula:
 contador_normales = contador_normales + 1
 
+al cerrar el ciclo se hará la siguiente formula:
 
+promedio_temperaturas = acumulador_general / TOTAL_TEMPERATURAS
 
 
 **Datos de Salida**
+
+- contador_mayor
+- contador_menor
+- contador_normales
+- promedio_temperaturas
+
+
+### Diagrama de flujo 
+![img](../../imgs/doble%20condicional.drawio.png)
+
+### Script 
+[Script.py](./script.py)
+
+--- 
+## Pensamiento Computacional
+
+Es una forma de razonar orientadaa resolver problemas de manera estructurada, usando principios de la informatica.
+
+Se trata de aprender a analizar, problemas, descomponerlos y construir soluciones claras, logicas y escalables 
+
+Se resume en: pensar como lo haria un sistema, paso a paso, con reglas definidas y demanera eficiente.
+
+### Pasos del pensamiento computacional
+
+1. **Descomposición**
+    - Consiste en dividir un problema grande en partes mas pequeñas y simples, buscando facilitar el entendimiento de cada parte del problema sin abrumarse con el problema en completo
+
+2. **Reconocimiento de patrones**
+    - En este punto se indican similitudes o comportamientos repetitivos entre los problemas o sus partes 
+
+3. **Abstracción**       
+    - Este punto busca enfocarse en los aspectos importantes del problema evitando los detalles innecesarios
+
+4. **Diseño de algoritmos**     
+    - Creación de una serie de pasos ordenados y logicos para resolver el problema
+
+### Como contribuye al desarrollo de software
+
+El pensamiento computacional contribuye a una comprensión más clara y estructurada de un problema, lo que permite abordarlo de manera más eficiente mediante herramientas informáticas.

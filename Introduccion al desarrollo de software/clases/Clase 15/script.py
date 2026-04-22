@@ -2,6 +2,7 @@
 # Versión: 2.0
 # Fecha: 04/20/2026
 # Descripción:  Algoritmo que calcule la temperatura promedio de las lecturas enviadas por un sensor mientras que no exceda los 26°C
+import time
 
 TEMPERATURA_MAXIMA = 26 
 TEMPERATURA_MINIMA = 16
@@ -10,6 +11,10 @@ contador_mayor = 0
 contador_menor = 0 
 contador_normales = 0  
 acumulador_general = 0
+
+print('--------------> SIATA <--------------\n \n')
+print('-> Envio de data cada 120 minutos\n \n')
+time.sleep(2)
 
 for iterador in range(TOTAL_TEMPERATURAS):
     temperatura_actual = float(input("Ingrese la temperatura actual \n-> "))
@@ -22,7 +27,9 @@ for iterador in range(TOTAL_TEMPERATURAS):
         contador_normales += 1
 
 promedio_temperaturas = acumulador_general / TOTAL_TEMPERATURAS
-        
+      
+print('--------------> Reporte <--------------\n \n')    
+time.sleep(2)    
 print(f"El promedio de temperaturas es: {promedio_temperaturas}° \n ")
 
 print(f"La cantidad de temperaturas normales fue: {contador_normales}")       

@@ -16,6 +16,19 @@
 - [script.py](./clases/Clase%2011/script.py)
 - [script2.py](./clases/Clase%2011/script2.py)
 
+### Clase 13
+- [clase13.md](./clases/Clase%2013/clase11.md)
+- [script.py](./clases/Clase%2013/script.py)
+
+### Clase 14
+- [clase14.md](./clases/Clase%2014/clase11.md)
+- [script.py](./clases/Clase%2014/script.py)
+
+
+### Clase 15
+- [clase15.md](./clases/Clase%2015/clase15.md)
+- [script.py](./clases/Clase%2015/script.py)
+
 ## Pseudo codigo
 - [NumeroMagico.psc](./Pseudo%20codigo/NumeroMagico.psc)
 

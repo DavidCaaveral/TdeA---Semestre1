@@ -79,7 +79,7 @@ promedio_temperaturas = acumulador_general / TOTAL_TEMPERATURAS
 --- 
 ## Pensamiento Computacional
 
-Es una forma de razonar orientadaa resolver problemas de manera estructurada, usando principios de la informatica.
+Es una forma de razonar orientada a resolver problemas de manera estructurada, usando principios de la informatica.
 
 Se trata de aprender a analizar, problemas, descomponerlos y construir soluciones claras, logicas y escalables 
 

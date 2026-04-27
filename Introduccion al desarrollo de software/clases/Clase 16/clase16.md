@@ -55,23 +55,42 @@ Elabora un pseudo codigo que calcule el promedio de los puntajes, el numero de p
 - contador_mayores
 
 ## Pseudo codigo 
+``` 
+Inicio
 
-**Inicio**
-
-`Declaración de las variables:`
+// Declaración de las variables:
 
 Entero puntajes_jugadores [10], variable_iteradora, suma_puntajes, promedio_puntajes, contador_menores, contador_mayores 
 puntajes_jugadores [120,93,70,45,99,86,83,100,80,85]
 
-`Inicialización de las variables:`
+// Inicialización de las variables:
 
 promedio_puntajes = 0 
 contador_mayores = 0
 contador_menores = 0 
 suma_puntajes = 0
 
-`Proceso`
-
+// Proceso
 Para(variable_iteradora = 0, variable_iteradora < 10, 1) hacer:
     suma_puntajes = suma_puntajes + puntajes_jugadores[variable_iteradora]
+
+    Si (puntajes_jugadores[variable_iteradora] >= 80)
+        contador_mayores = contador_mayores + 1
+    SiNo
+        contador_menores = contador_menores + 1
+    FinSi
+FinPara
+
+promedio_puntajes = suma_puntajes / 10 
+
+Escribir "El promedio es: ", promedio_puntajes
+Escribir "el numero de puntajes mayores o iguales a 80: ", contador_mayores
+Escribir "el numero de puntajes menores a 80: ", contador_menores 
+
+Fin
+
+```
+
+
+
 

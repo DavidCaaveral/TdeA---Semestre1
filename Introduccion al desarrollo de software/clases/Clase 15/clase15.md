@@ -102,3 +102,4 @@ Se resume en: pensar como lo haria un sistema, paso a paso, con reglas definidas
 ### Como contribuye al desarrollo de software
 
 El pensamiento computacional contribuye a una comprensión más clara y estructurada de un problema, lo que permite abordarlo de manera más eficiente mediante herramientas informáticas.
+

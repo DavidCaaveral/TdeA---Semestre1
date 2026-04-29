@@ -91,6 +91,57 @@ Fin
 
 ```
 
+###  Ejercicio
+
+Likes en redes sociales:
+
+Un estudiante quiere analizar el rendimiento de sus últimas 5 publicaciones de Instagram. Para ello registro la cantidad de likes de cada publicación en un vector. Elabora un pseudocódigo que:
+
+- Calculé el total de likes para las 5 publicaciones 
+
+- Calculé el promedio de likes para las 5 publicaciones 
+
+- Muestre el total de publicaciones que tuvieron 100 o más likes 
+
+
+Valores del vector
+
+93, 56, 82, 103, 22
+
+```
+Inicio
+
+// Declaración de las variables:
+
+Entero likes [5], variable_iteradora, suma_likes, promedio_likes, contador_cien,
+likes [93, 56, 82, 103, 22]
+
+// Inicialización de las variables:
+
+promedio_likes = 0 
+contador_cien = 0
+suma_likes = 0
+
+// Proceso
+Para(variable_iteradora = 0, variable_iteradora < 5, 1) hacer:
+    suma_likes = suma_likes + likes[variable_iteradora]
+
+    Si (likes[variable_iteradora] >= 100)
+        contador_cien = contador_cien + 1
+    FinSi
+FinPara
+
+promedio_likes= suma_likes / 5
+
+Escribir "El promedio es: ", promedio_likes
+Escribir "El total de likes es: ", suma_likes
+Escribir "el numero de publicaciones con 100 likes en adelante: ", contador_cien
+
+Fin
+
+```
+
+
 
 
 

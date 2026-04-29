@@ -20,4 +20,4 @@ promedio_puntajes = acumulador_puntajes / NUMERO_PUNTAJES
 
 print(f'Numero de porcentajes mayores o iguales a 80: {contador_mayores}')
 print(f'Numero de porcentajes menores a 80: {contador_menores}')
-print(f'Pormedio de puntajes: {promedio_puntajes}')
+print(f'Promedio de puntajes: {promedio_puntajes}')

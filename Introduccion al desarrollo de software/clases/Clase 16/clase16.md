@@ -91,6 +91,10 @@ Fin
 
 ```
 
+> **Script:** [script.py](script.py)
+
+>> **Script - Versión 2:** [script.py](script3.py)
+
 ###  Ejercicio
 
 Likes en redes sociales:
@@ -140,7 +144,7 @@ Escribir "el numero de publicaciones con 100 likes en adelante: ", contador_cien
 Fin
 
 ```
-
+> **Script 2 :** [script 2.py](script2.py)
 
 
 

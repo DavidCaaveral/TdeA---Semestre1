@@ -147,5 +147,10 @@ Fin
 > **Script 2 :** [script 2.py](script2.py)
 
 
+### Ejercicio
+
+Escoger un diagrama de flujo previamente visto en clase y adaptarlo con arreglos.
+
+
 
 

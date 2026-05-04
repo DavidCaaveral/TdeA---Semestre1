@@ -21,7 +21,7 @@ while iterador < 10:
 
         acumulador_puntajes += puntajes_estudiantes[iterador-1]
 
-        if puntajes_estudiantes[iterador-1] >= 80: contador_mayores +=1 
+        if puntajes_estudiantes[iterador-1] >= 80: contador_mayores +=1
         if puntajes_estudiantes[iterador-1] < 80: contador_menores +=1     
 
 promedio_puntajes = acumulador_puntajes / len(puntajes_estudiantes)

@@ -32,6 +32,14 @@
 ### Clase 16
 - [clase16.md](./clases/Clase%2016/clase16.md)
 - [script.py](./clases/Clase%2016/script.py)
+- [script2.py](./clases/Clase%2016/script2.py)
+- [script3.py](./clases/Clase%2016/script3.py)
+- [script4.py](./clases/Clase%2016/script4.py)
+
+### Clase 17
+- [clase17.md](./clases/Clase%2017/clase17.md)
+- [script.py](./clases/Clase%2017/script.py)
+
 
 
 ## Pseudo codigo

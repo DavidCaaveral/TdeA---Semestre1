@@ -26,4 +26,6 @@ def main():
     else:
         print('Los numeros para las operaciones deben ser positivos')    
 
-main()
+if __name__ == "__main__":
+    main()
+    

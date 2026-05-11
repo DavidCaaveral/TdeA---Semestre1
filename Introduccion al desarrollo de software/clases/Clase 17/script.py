@@ -7,12 +7,12 @@ Contruye un script de python que lea 2 numeros enteros positivos y que calcule p
 '''
 
 # Proceso
-def suma(n1,n2):
+def suma(n1,n2) -> float:
     return n1 + n2
-def multiplicacion(n1,n2):
+def multiplicacion(n1,n2) -> float:
     return n1 * n2
-def division(n1,n2):
-    return "Valor del denominador es 0 por lo tanto la operacion no es valida" if n2 == 0 else n1 / n2
+def division(n1,n2) -> any:
+    return "Valor del denominador es 0 por lo tanto la operación no es valida" if n2 == 0 else n1 / n2
 
 def main():
     # Datos de entrada

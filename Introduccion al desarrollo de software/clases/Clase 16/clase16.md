@@ -1,7 +1,7 @@
 # Clase 16 - Arrays 
 
 ## Arreglos
-Tipo de datos estructurado que puede alamcenar varios valores. Los valores deben ser del mismo tipo.
+Tipo de datos estructurado que puede almacenar varios valores. Los valores deben ser del mismo tipo.
 
 ### Indice 
 Un índice de un array es el número que indica la posición exacta de un elemento dentro de ese array. Es la forma de ubicar y acceder a cada dato, como si fuera la dirección de cada elemento en una lista ordenada.
@@ -14,7 +14,7 @@ Generalmente empieza en 0, así que el primer elemento tiene índice 0, el segun
 
 ```
 
-Para recorrer los arreglos necesitamos variables `iteradoras` que se ubique en cada posición según el indice de la lista o array
+Para recorrer los arreglos necesitamos variables `iteradoras` que se ubique en cada posición según el índice de la lista o array
 
 
 **Ejemplo:**
@@ -26,14 +26,14 @@ Elabora un pseudo codigo que calcule el promedio de los puntajes, el numero de p
 - puntaje_estudiantes, variable de tipo arreglo 
 
 **Proceso:**
-- Se definen las varaibles:
+- Se definen las variables:
     - iterador = 0, variable de tipo entero 
     - NUMERO_ESTUDIANTES = 10, variable de tipo entero 
     - contador_mayores = 0, variable de tipo entero 
     - contador_menores = 0, variable de tipo entero 
     - acumulador_puntajes = 0, variable de tipo real 
 
-- se hará un ciclo de tipo **para** que tenga la condicion "(iterador <= NUMERO_ESTUDIANTES )", en el ciclo se hara la siguiente formula:
+- se hará un ciclo de tipo **para** que tenga la condición "(iterador <= NUMERO_ESTUDIANTES )", en el ciclo se hará la siguiente formula:
 
 - acumulador_puntajes = acumulador_puntajes + valor de la posición actual del arreglo
 

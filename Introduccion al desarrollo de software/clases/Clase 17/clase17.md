@@ -1,6 +1,6 @@
-# Clase 17 - Estructura de codigo en python
+# Clase 17 - Estructura de código en python
 
-### Estandar de codificación
+### Estándar de codificación
 
 Es una **forma estándar de organizar código en Python** donde separas claramente importaciones, constantes, funciones, clases y el punto de ejecución (`main`), lo que hace el programa más claro, reutilizable y fácil de mantener; no cambia lo que el código hace, sino cómo está estructurado para trabajar mejor en proyectos reales.
 

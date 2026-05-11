@@ -7,7 +7,7 @@ Proceso NumeroMagico
 	// Declaraci?n de variables
 	Definir nombreApostador como cadena
 	Definir numeroMagic, numeroIngresado como entero
-	
+
 	// Inicializaci?n de variables
 	numeroMagic=7
 	numeroIngresado=0

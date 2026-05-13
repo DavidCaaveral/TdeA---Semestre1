@@ -99,3 +99,75 @@ saludar("David")
 Hola Invitado
 Hola David
 ```
+
+
+### Ejercicios
+
+Elabora un **pseudocódigo** modular que calcule el valor a pagar de un empleado y las deducciones teniendo en cuenta las horas laboradas, el valor de la hora y el total de las deducciones.
+
+- Elabora el análisis
+- Construye el pseudocódigo 
+- Utilizar camell-case
+
+**Solución:**
+
+### Analisis
+
+**Datos de entrada:**
+- valorHora: variable de tipo real
+- horasTrabajadas: variable de tipo entero
+- totalDeducciones: variable de tipo real
+**Proceso:**
+- Se definen las variables:
+	- valorHora = 0
+	- horasTrabajadas = 0
+	- totalDeducciones = 0 
+- Se harán las siguientes funciones: 
+	Función salarioBruto que recibirá como parámetros las variables: valorHora y horasTrabajadas este devolverá un valor de tipo Real y hará el siguiente proceso:
+		valorHora * horasTrabajadas y se retorna el resultado
+
+	Función salarioTotal que recibirá como parámetros las variables: salarioBruto y totalDeducciones este devolverá un valor de tipo Real y hará el siguiente proceso:
+		salarioBruto - totalDeducciones y se retorna el resultado
+
+	Función Main en esta se ejecutaran las funciones anteriores y se planteara la interfaz, adicional esta no retornara nada y se leerán las siguientes variables:
+	- valorHora
+	- horasTrabajadas
+	- totalDeducciones
+	
+**Datos de Salida:**
+- totalDeducciones
+- salarioTotal
+
+### Pseudocódigo
+
+Inicio
+
+Entero horasTrabajadas
+Real valorHora, totalDeducciones, varSalarioBruto
+
+horasTrabajadas = 0
+valorHora = 0
+totalDeducciones = 0
+ varSalarioBruto = 0
+ 
+Función salarioBruto (real: valorHora, entero: horasTrabajadas ): Real
+	retorne valorHora * horasTrabajadas
+Fin Función
+Función salarioTotal (real: salarioBruto , real: totalDeducciones ): Real
+	retorne salarioBruto - totalDeducciones
+Fin Función
+
+Función Main(): Vacio
+	Muestre "Ingrese el salario por hora del empleado"
+	Leer valorHora
+	Muestre  "Ingrese las horas que el empleado trabajó"
+	Leer horasTrabajadas
+	Muestre "Ingrese las deducciones"
+	Leer totalDeducciones
+	varSalarioBruto = salarioBruto(valorHora, horasTrabajadas)
+	Muestre "El total del salario es: " + salarioTotal(varSalarioBruto, totalDeducciones )
+	Muestre "Las deducciones aplicadas equivalen a: " + totalDeducciones
+
+Main()
+
+Fin
